@@ -449,25 +449,24 @@ function renderHome(){
   h+='<div class="xp-scale-item"><div class="xp-scale-val">1200-2000</div><div class="xp-scale-label">Confirm\u00e9<br>\u2248 14/20</div></div>';
   h+='<div class="xp-scale-item"><div class="xp-scale-val">2000+</div><div class="xp-scale-label">Pr\u00eat !<br>\u2248 18/20</div></div>';
   function renderPricing(){
-  let h='<div class="xp-explain"><h3>Comment fonctionnent les XP ?</h3>';
-  h+='<p>Chaque XP correspond \u00e0 votre progression vers l\u0027examen d\u0027agent sportif. L\u0027examen comporte 2 \u00e9preuves : g\u00e9n\u00e9rale (CIAS/CNOSF) + sp\u00e9cifique (f\u00e9d\u00e9ration). Note minimale : 10/20.</p>';
-  h+='<p>\ud83d\udcd6 <strong>1 le\u00e7on = 15 XP</strong> (une notion ma\u00eetris\u00e9e) &nbsp; \ud83e\uddea <strong>1 quiz = 50-150 XP</strong> (selon le score) &nbsp; \ud83d\udcaf <strong>Score parfait = +50 XP bonus</strong></p>';
-  h+='<div class="xp-scale">';
-  h+='<div class="xp-scale-item"><div class="xp-scale-val">0-200</div><div class="xp-scale-label">Novice<br>\u2248 0/20</div></div>';
-  h+='<div class="xp-scale-item"><div class="xp-scale-val">200-600</div><div class="xp-scale-label">Initi\u00e9<br>\u2248 5/20</div></div>';
-  h+='<div class="xp-scale-item"><div class="xp-scale-val">600-1200</div><div class="xp-scale-label">Pr\u00e9par\u00e9<br>\u2248 10/20 \u2705</div></div>';
-  h+='<div class="xp-scale-item"><div class="xp-scale-val">1200-2000</div><div class="xp-scale-label">Confirm\u00e9<br>\u2248 14/20</div></div>';
-  h+='<div class="xp-scale-item"><div class="xp-scale-val">2000+</div><div class="xp-scale-label">Pr\u00eat !<br>\u2248 18/20</div></div>';
-  h+='</div></div>';
-  h+='<div class="pricing-section"><h2 style="font-size:22px;color:var(--p);text-align:center;margin-bottom:6px">Votre formation agent sportif</h2><p style="text-align:center;color:#666;font-size:14px;margin-bottom:20px">Pr\u00e9parez l\u0027examen d\u0027agent sportif (\u00e9preuve g\u00e9n\u00e9rale CIAS + \u00e9preuve sp\u00e9cifique)</p>';
-  h+='<div class="pricing-grid">';
-  h+='<div class="pricing-card"><div class="pricing-name">D\u00e9couverte</div><div class="pricing-price">Gratuit</div><div class="pricing-period">Sans engagement</div><ul class="pricing-features"><li>2 modules : Droit du Sport + Droit des Contrats</li><li>11 le\u00e7ons compl\u00e8tes</li><li>18 questions de quiz</li><li>Syst\u00e8me XP, badges et classement</li><li class="no">6 modules avanc\u00e9s (fiscal, assurances, FIFA...)</li><li class="no">55+ questions suppl\u00e9mentaires</li><li class="no">Examen blanc complet</li><li class="no">Mises \u00e0 jour r\u00e9glementaires</li></ul><button class="btn btn-secondary btn-full">Formule actuelle</button></div>';
-  h+='<div class="pricing-card popular"><div class="pricing-badge">\u2b50 RECOMMAND\u00c9</div><div class="pricing-name">Formation Compl\u00e8te</div><div class="pricing-price">29\u20ac <span>/ mois</span></div><div class="pricing-period">Sans engagement \u2022 Annulable \u00e0 tout moment</div><ul class="pricing-features"><li>8 modules complets (38 le\u00e7ons)</li><li>73+ questions de quiz</li><li>Examen blanc en conditions r\u00e9elles</li><li>Correction d\u00e9taill\u00e9e de chaque r\u00e9ponse</li><li>Suivi de progression par mati\u00e8re</li><li>Mises \u00e0 jour l\u00e9gislatives</li><li>Acc\u00e8s illimit\u00e9 24h/24</li></ul><button class="btn btn-primary btn-full" style="animation:pulse 2s infinite">Commencer \u2192</button><p style="font-size:11px;color:#999;margin-top:8px;text-align:center">\u2248 moins d\u00271\u20ac/jour</p></div>';
-  h+='<div class="pricing-card"><div class="pricing-name">Pack Complet</div><div class="pricing-price">39,99\u20ac</div><div class="pricing-period">Paiement unique</div><ul class="pricing-features"><li>Tout le contenu Formation Compl\u00e8te</li><li>8 modules complets (38 le\u00e7ons)</li><li>73+ questions de quiz</li><li>Examen blanc en conditions r\u00e9elles</li><li>Correction d\u00e9taill\u00e9e</li><li>Mises \u00e0 jour incluses</li><li>Sans abonnement mensuel</li><li>Garantie satisfait ou rembours\u00e9 30j</li></ul><button class="btn btn-primary btn-full">Choisir ce pack \u2192</button><p style="font-size:11px;color:#999;margin-top:8px;text-align:center">Le prix d\u0027un manuel scolaire</p></div>';
-  h+='</div></div>';
-  return h;
+let h='<div class="xp-explain"><h3>Comment fonctionnent les XP ?</h3>';
+h+='<p>Chaque XP correspond \xe0 votre progression vers l\x27examen d\x27agent sportif. L\x27examen comporte 2 \xe9preuves : g\xe9n\xe9rale (CIAS/CNOSF) + sp\xe9cifique (f\xe9d\xe9ration). Note minimale : 10/20.</p>';
+h+='<p>\ud83d\udcd6 <strong>1 le\xe7on = 15 XP</strong> (une notion ma\xeetris\xe9e) &nbsp; \ud83e\uddea <strong>1 quiz = 50-150 XP</strong> (selon le score) &nbsp; \ud83d\udcaf <strong>Score parfait = +50 XP bonus</strong></p>';
+h+='<div class="xp-scale">';
+h+='<div class="xp-scale-item"><div class="xp-scale-val">0-200</div><div class="xp-scale-label">Novice<br>\u2248 0/20</div></div>';
+h+='<div class="xp-scale-item"><div class="xp-scale-val">200-600</div><div class="xp-scale-label">Initi\xe9<br>\u2248 5/20</div></div>';
+h+='<div class="xp-scale-item"><div class="xp-scale-val">600-1200</div><div class="xp-scale-label">Pr\xe9par\xe9<br>\u2248 10/20 \u2705</div></div>';
+h+='<div class="xp-scale-item"><div class="xp-scale-val">1200-2000</div><div class="xp-scale-label">Confirm\xe9<br>\u2248 14/20</div></div>';
+h+='<div class="xp-scale-item"><div class="xp-scale-val">2000+</div><div class="xp-scale-label">Pr\xeat !<br>\u2248 18/20</div></div>';
+h+='</div></div>';
+h+='<div class="pricing-section"><h2 style="font-size:22px;color:var(--p);text-align:center;margin-bottom:6px">Votre formation agent sportif</h2><p style="text-align:center;color:#666;font-size:14px;margin-bottom:20px">Pr\xe9parez l\x27examen d\x27agent sportif (\xe9preuve g\xe9n\xe9rale CIAS + \xe9preuve sp\xe9cifique)</p>';
+h+='<div class="pricing-grid">';
+h+='<div class="pricing-card"><div class="pricing-name">D\xe9couverte</div><div class="pricing-price">Gratuit</div><div class="pricing-period">Sans engagement</div><ul class="pricing-features"><li>2 modules : Droit du Sport + Droit des Contrats</li><li>11 le\xe7ons compl\xe8tes</li><li>18 questions de quiz</li><li>Syst\xe8me XP, badges et classement</li><li class="no">6 modules avanc\xe9s (fiscal, assurances, FIFA...)</li><li class="no">55+ questions suppl\xe9mentaires</li><li class="no">Examen blanc complet</li><li class="no">Mises \xe0 jour r\xe9glementaires</li></ul><button class="btn btn-secondary btn-full">Formule actuelle</button></div>';
+h+='<div class="pricing-card popular"><div class="pricing-badge">\u2b50 RECOMMAND\xc9</div><div class="pricing-name">Formation Compl\xe8te</div><div class="pricing-price">29\u20ac <span>/ mois</span></div><div class="pricing-period">Sans engagement \u2022 Annulable \xe0 tout moment</div><ul class="pricing-features"><li>8 modules complets (38 le\xe7ons)</li><li>73+ questions de quiz</li><li>Examen blanc en conditions r\xe9elles</li><li>Correction d\xe9taill\xe9e de chaque r\xe9ponse</li><li>Suivi de progression par mati\xe8re</li><li>Mises \xe0 jour l\xe9gislatives</li><li>Acc\xe8s illimit\xe9 24h/24</li></ul><button class="btn btn-primary btn-full" style="animation:pulse 2s infinite">Commencer \u2192</button><p style="font-size:11px;color:#999;margin-top:8px;text-align:center">\u2248 moins d\x271\u20ac/jour</p></div>';
+h+='<div class="pricing-card"><div class="pricing-name">Pack Complet</div><div class="pricing-price">39,99\u20ac</div><div class="pricing-period">Paiement unique</div><ul class="pricing-features"><li>Tout le contenu Formation Compl\xe8te</li><li>8 modules complets (38 le\xe7ons)</li><li>73+ questions de quiz</li><li>Examen blanc en conditions r\xe9elles</li><li>Correction d\xe9taill\xe9e</li><li>Mises \xe0 jour incluses</li><li>Sans abonnement mensuel</li><li>Garantie satisfait ou rembours\xe9 30j</li></ul><button class="btn btn-primary btn-full">Choisir ce pack \u2192</button><p style="font-size:11px;color:#999;margin-top:8px;text-align:center">Le prix d\x27un manuel scolaire</p></div>';
+h+='</div></div>';
+return h;
 }
-
 function renderModules(){
   let html=navHTML()+'<div class="page">';
   html+='<h1 class="page-title">\u{1F4DA} Modules de Formation</h1>';
